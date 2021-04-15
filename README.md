@@ -1,7 +1,7 @@
 
 # Rapport
 
-**Skriv din rapport här!**
+**Assignment 4 - Screens**
 
 Uppgiften gick ut på att skapa en andra aktivitet och skapa en fragment.
 
@@ -23,7 +23,7 @@ Först krävs en intent som startar en ny aktivitet.
     }
 ```
 Den skapar en ny intent och skickar en till ett nytt fönster med en egen layout. Här finns skapas en fragment.
-```java
+```xml
     <fragment
         android:id="@+id/fragment"
         android:name="com.example.screens.BlankFragment"
