@@ -47,6 +47,24 @@ Inuti fragment går det skapa flera olika widgets(vyer) här lades en knapp till
 ```
 Knappen positioneras i mitten av fragment genom layout_gravity.
 
+För att stänga aktiviteten och gå tillbaka till först används funktionen finish().
+
+```java
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_second);
+        Button button = findViewById(R.id.backButton);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+    }
+    
+```
+
 Resultatet ser ut så här:
 
 <img src="app1.png" alt="Aktivitet1" width="200"/>
