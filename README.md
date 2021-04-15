@@ -5,7 +5,7 @@
 
 Uppgiften gick ut på att skapa en andra aktivitet och skapa en fragment.
 
-Först krävs en intent som skapar en ny aktivitet.
+Först krävs en intent som startar en ny aktivitet.
 ```java
     private Intent intent;
     @Override
@@ -49,9 +49,9 @@ Knappen positioneras i mitten av fragment genom layout_gravity.
 
 Resultatet ser ut så här:
 
-![](app1.png =250x)
+<img src="app1.png" alt="Aktivitet1" width="200"/>
 
 Denna bilden visar hur andra aktiviteten ser ut med en fragment och en knapp.
 
-![](app2.png =250x)
+<img src="app2.png" alt="Aktivitet2" width="200"/>
 
